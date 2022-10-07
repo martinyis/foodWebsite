@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>foodWebsite</title>
+  <meta charset="UTF-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+  />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="apple-mobile-web-app-capacity" content="yes" />
+</head>
+
+  <body>
+    <header class="header">
+  <div class="header__container">
+    <div class="header__logo">
+      <a href="index.html" class="header__logo-link">
+        <img src="img/logo.svg" alt="" />
+      </a>
+    </div>
+    <div class="header__menu">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#main" class="header__link">About</a>
+          </li>
+          <li class="header__item features">
+            <a href="#qualities" class="header__link">Features</a>
+          </li>
+          <li class="header__item usage">
+            <a href="#" class="header__link">How to Use</a>
+          </li>
+          <li class="header__item downloading">
+            <a href="#" class="header__link">Download</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="burger__menu" role="navigation">
+      <ul class="burger__menu-list" id="menu">
+        <a class="burger__menu-item about" href="#main"
+          ><li class="header__link">About</li></a
+        >
+        <a class="burger__menu-item features" href="#qualities"
+          ><li class="header__link">Features</li></a
+        >
+        <a class="burger__menu-item usage" href="#slider"
+          ><li class="header__link">How to Use</li></a
+        >
+        <a class="burger__menu-item downloading" href="#download"
+          ><li class="header__link">Download</li></a
+        >
+      </ul>
+    </nav>
+    <div class="demo">
+      <div class="menu-icon">
+        <input class="menu-icon__cheeckbox" type="checkbox" />
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="main" id="main">
+        <div class="main__background">
+          <div class="main__container">
+            <div class="main__information">
+              <h1 class="main__title">Momentum</h1>
+              <p class="main__subtitle">
+                Launch your product — and savor the momentum.
+              </p>
+              <button class="main__button default-btn">Get the App</button>
+            </div>
+            <div class="main__picture">
+              <div class="main__picture-image">
+                <img src="img/mainSection.svg" alt="main-picture" />
+              </div>
+            </div>
+          </div>
+          <img src="img/backgrounds/cover.jpg" alt="background" />
+        </div>
+      </section>
+      <section class="prewiew">
+        <div class="prewiew__background">
+          <img
+            class="prewiew__background-img"
+            src="img/backgrounds/coverBlack.jpg"
+            alt=""
+          />
+          <div class="prewiew__container">
+            <h2 class="prewiew__title">Aenean Consectetur Porta</h2>
+            <p class="prewiew__subtitle">
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+            </p>
+          </div>
+          <div class="prewiew__picture">
+            <img src="img/secondary_section.svg" alt="preview-picture" />
+          </div>
+        </div>
+      </section>
+      <section class="food">
+        <div class="food__container">
+          <div class="food__body body-first">
+            <div class="food__body-firstinfo">
+              <p class="food__body-firstname food-name">Aenean Consectetur</p>
+              <div class="food__body-info-firstsubname food-subname">s</div>
+              <div class="food__body-info-firstdescription food-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </div>
+            </div>
+            <div class="food__body-firstpicture food-picture">
+              <img src="img/units/unit_01.jpg" alt="" />
+            </div>
+          </div>
+          <div class="food__body body-second">
+            <div class="food__body-secondinfo">
+              <p class="food__body-info-secondname food-name">
+                ConsectUltricies
+              </p>
+              <div class="food__body-info-secondsubname food-subname">
+                Amet Ipsum
+              </div>
+              <div class="food__body-info-seconddescription food-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </div>
+            </div>
+            <div class="food__body-secondpicture food-picture">
+              <img src="img/units/unit_02.svg" alt="" />
+            </div>
+          </div>
+          <div class="food__body body-third">
+            <div class="food__body-thirdinfo">
+              <p class="food__body-info-thirdname food-name">
+                Aenean Consectetur Porta
+              </p>
+              <div class="food__body-info-thirdsubname food-subname">
+                Magna Porta Sit Bibendum
+              </div>
+              <div class="food__body-info-thirddescription food-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </div>
+            </div>
+            <div class="food__body-thirdpicture food-picture">
+              <img src="img/units/unit_03.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="advantages__container">
+          <div class="advantages__item">
+            <div class="advantages__picture-burger adv-picture">
+              <img src="img/advantages/icon-burger.png" alt="" />
+            </div>
+            <div class="advantages__burger-name adv-name">
+              Activity Notifications
+            </div>
+            <div class="advantages__burger-info advinfo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </div>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__picture-forks adv-picture">
+              <img src="img/advantages/forks-icon.png" alt="" />
+            </div>
+            <div class="advantages__forks-name adv-name">Custom Timing</div>
+            <div class="advantages__forks-info advinfo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </div>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__picture-scale adv-picture">
+              <img src="img/advantages/scale-icon.png" alt="" />
+            </div>
+            <div class="advantages__scale-name adv-name">Mobile Optimized</div>
+            <div class="advantages__sclae-info advinfo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="qualities" id="qualities">
+        <div class="qualities__container">
+          <div class="qualities__item">
+            <div class="qualities__number">+12k</div>
+            <p class="qualities__quality">Nibh Elit Tristique</p>
+          </div>
+          <div class="qualities__item">
+            <div class="qualities__number">84</div>
+            <p class="qualities__quality">Aenean Condimentum</p>
+          </div>
+          <div class="qualities__item">
+            <div class="qualities__number">3,07</div>
+            <p class="qualities__quality">Quam Inceptos</p>
+          </div>
+          <div class="qualities__item">
+            <div class="qualities__number">24h</div>
+            <p class="qualities__quality">Ullamcorper</p>
+          </div>
+        </div>
+      </section>
+      <section class="servings">
+        <div class="servings__container">
+          <div class="servings__firstbody servingsbody">
+            <div class="servings__firstinfo servingsinfo">
+              <p class="servings__firstname servingsname">Aenean Consectetur Porta</p>
+              <p class="servings__firstsubname servingssubname">Sem Risus Elit Vestibulum</p>
+              <div class="servings__firstinformation servingsinfo">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</div>
+            </div>
+            <div class="servings__firstpicture servingspicture">
+              <img src="img/Новая папка/burgers.jpg" alt="">
+            </div>
+          </div>
+          <div class="servings__secondbody  servingsbody">
+            <div class="servings__secondinfo servingsinfo">
+              <p class="servings__secondname servingsname">Aenean Consectetur Porta</p>
+              <p class="servings__secondsubname servingssubname">Parturient Tortor</p>
+              <div class="servings__secondinformation servingsinfo">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</div>
+            </div>
+            <div class="servings__secondpicture servingspicture">
+              <img src="img/Новая папка/mixed_food.jpg" alt="">
+            </div>
+        </div>
+      </section>
+      <section class="slider" id="slider">
+        <div class="slider__container">
+          <div class="slider__quotes">
+            <img src="img/icons/quotes.png" alt="">
+          </div>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slider__text">
+                  HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing
+                </div>
+              </div>
+              <div class="swiper-slide"><div class="slider__text">
+                HeadNulla vitae elit libero, a pharetraus sit amet fermentum. Donam porta sem malesuada magna mollis euismod.ing
+              </div></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="phones">
+        <div class="phones__background">
+        </div>
+      </section>
+      <section class="download" id="download">
+        <div class="download__container">
+          <div class="download__title">Ready to get started?</div>
+          <div class="download__buttons">
+            <button class="download__donwload loadbtn">Download Now</button>
+            <button class="download__start loadbtn">Get in Touch</button>
+          </div>
+        </div>
+        <div class="download__background">
+          <img src="img/backgrounds/cover.jpg" alt="">
+        </div>
+      </section>
+      <section class="signin">
+        <div class="signin__container">
+          <h3 class="signin__title">Get updates from Richard</h3>
+          <p class="signin__subtitle">New course alerts, discounts and free lessons</p>
+          <form action="" class="signin__form">
+            <input type="text" placeholder='Enter your email' class="signin__input">
+            <button class="signin__button">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__logo">
+      <a href="#">
+        <img src="img/final_logo.svg" alt="logo" />
+      </a>
+    </div>
+    <nav class="footer__list">
+      <ul class="footer__items">
+        <li class="footer__item"><a href="#">Email</a></li>
+        <li class="footer__item"><a href="#">Instagram</a></li>
+        <li class="footer__item"><a href="#">Facebook</a></li>
+        <li class="footer__item"><a href="#">Twitter</a></li>
+        <li class="footer__item"><a href="#">Image License Info</a></li>
+        <li class="footer__item"><a href="#">Powered by Webflow</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    <script src="js/app.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
