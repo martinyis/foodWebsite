@@ -1143,15 +1143,8 @@ body {
   box-shadow: 0px 0px 0px #fc0a7e;
   border-radius: 3px 0px 0px 3px;
   flex: 0 1 311px;
-  height: 70px;
-  padding-left: 3px;
 }
-.signin__input::placeholder {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-left: 3px;
-}
+
 .signin__input:focus {
   outline: none;
   box-shadow: 0px 0px 0px #fc0a7e;
@@ -1167,6 +1160,7 @@ body {
   text-align: center;
   height: 70px;
   flex: 0 1 154px;
+  color: #d3d3d3;
 }
 
 .footer {
